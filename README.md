@@ -12,7 +12,7 @@
 
 - 🌱 I’m currently learning **MERN | DevOps**
 
-- 👨‍💻 All of my projects are available at (https://saralh0ssain-ii6atoj06-saralhossains-projects.vercel.app/hapvider)
+- 👨‍💻 All of my projects are available at (https://saralh0ssain.vercel.app/)
 
 - 📝 I regularly write articles on [https://medium.com/@alamdar.hussain0007](https://medium.com/@alamdar.hussain0007)
 
