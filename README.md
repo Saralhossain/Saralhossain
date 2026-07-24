@@ -1,39 +1,85 @@
-[![MasterHead](https://images.unsplash.com/photo-1566837945700-30057527ade0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80)](https://images.unsplash.com/photo-1566837945700-30057527ade0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80)
+<div align="center">
 
+  <h1>Hi 👋, I'm Alamdar Hussain Shah (Saral)</h1>
+  <h3>Full Stack Developer | AI Integration Specialist</h3>
 
-<h1 align="center">Hi 👋, I'm Alamdar Hussain</h1>
-<h3 align="center">A passionate frontend developer from Pakistan</h3>
-<img align="right" alt="coding" width="400" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif">
+  <p>Building scalable web applications, HIPAA-compliant platforms, and intelligent multi-agent AI systems.</p>
 
+  <p>
+    <a href="https://saralh0ssain.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
+    <a href="https://linkedin.com/in/saral-hossain"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+    <a href="mailto:alamdar.hussain0007@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  </p>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=saralhossain&label=Profile%20views&color=0e75b6&style=flat" alt="saralhossain" /> </p>
+  <p><img src="https://komarev.com/ghpvc/?username=saralhossain&label=Profile%20views&color=0e75b6&style=flat-square" alt="Profile Views" /></p>
 
-<p align="left"> <a href="https://twitter.com/saih0s" target="blank"><img src="https://img.shields.io/twitter/follow/saih0s?logo=twitter&style=for-the-badge" alt="saih0s" /></a> </p>
+</div>
 
-- 🌱 I’m currently learning **MERN | DevOps**
+---
 
-- 👨‍💻 All of my projects are available at (https://saralh0ssain.vercel.app/)
+### 🚀 About Me
 
-- 📝 I regularly write articles on [https://medium.com/@alamdar.hussain0007](https://medium.com/@alamdar.hussain0007)
+- 🔭 **Current Focus:** Building HIPAA-compliant clinical systems & enterprise AI tools.
+- 🤖 **AI & LLM Integration:** RAG, Agentic Workflows, Anthropic Claude API, OpenAI API, and Model Context Protocol (MCP).
+- 🛠️ **Tech Stack:** TypeScript, Next.js, Node.js, NestJS, React Native, AWS, Docker & PostgreSQL.
+- 🎓 **Education:** BS in Computer Science from FAST-NUCES.
+- 🌐 **Portfolio:** [saralh0ssain.vercel.app](https://saralh0ssain.vercel.app/)
+- 📝 **Articles:** [Medium (@alamdar.hussain0007)](https://medium.com/@alamdar.hussain0007)
 
-- 💬 Ask me about **JavaScript |Reactjs| Angular**
+---
 
-- 📫 How to reach me **alamdar.hussain0007@gmail.com**
+### 🛠️ Tech Stack & Tools
 
-- ⚡ Fun fact **I'm extrovert.**
+#### **Languages & Frameworks**
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
+![Express](https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white)
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://twitter.com/saih0s" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="saih0s" height="30" width="40" /></a>
-<a href="https://linkedin.com/in/saral-hossain" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="saral-hossain" height="30" width="40" /></a>
-<a href="https://medium.com/@alamdarhussain" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" alt="@alamdarhussain" height="30" width="40" /></a>
-</p>
+#### **AI & LLM Orchestration**
+![Anthropic Claude](https://img.shields.io/badge/Anthropic_Claude-D97706?style=flat-square&logo=anthropic&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI_API-412991?style=flat-square&logo=openai&logoColor=white)
+![LangChain](https://img.shields.io/badge/RAG_%26_Agents-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://angular.io" target="_blank" rel="noreferrer"> <img src="https://angular.io/assets/images/logos/angular/angular.svg" alt="angular" width="40" height="40"/> </a> <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a> <a href="https://expressjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://kubernetes.io" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg" alt="kubernetes" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://opencv.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="opencv" width="40" height="40"/> </a> <a href="https://www.oracle.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg" alt="oracle" width="40" height="40"/> </a> <a href="https://www.php.net" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> </p>
+#### **Cloud, Databases & DevOps**
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=saralhossain&show_icons=true&locale=en&layout=compact" alt="saralhossain" /></p>
+---
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=saralhossain&show_icons=true&locale=en" alt="saralhossain" /></p>
+### 🌟 Featured Projects
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=saralhossain&" alt="saralhossain" /></p>
+* **Rehab Flow:** Enterprise healthcare network platform featuring AI automated documentation and HIPAA-compliant real-time collaborative workflows.
+* **YourRightHand™:** Commercial Real Estate AI CRM utilizing Anthropic Claude & OpenAI for transcribed meeting summaries, deal flow management, and multi-tenant architectures.
+* **Hapvider Portal:** SaaS lead generation dashboard featuring automated Stripe billing, KPI analytics, and lead deduplication tools.
+
+---
+
+### 🏅 Certifications
+
+* **Anthropic:** Building with the Claude API | Claude Code in Action | AI Fluency Framework
+* **AWS:** AWS Cloud Quest (Cloud Practitioner) | Cloud Essentials[cite: 1]
+
+---
+
+<div align="center">
+
+  ### 📊 GitHub Stats
+
+  <p>
+    <img height="160" src="https://github-readme-stats.vercel.app/api?username=saralhossain&show_icons=true&theme=dark&include_all_commits=true&count_private=true" alt="Alamdar's GitHub Stats" />
+    <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=saralhossain&layout=compact&theme=dark&hide=html,css" alt="Top Languages" />
+  </p>
+
+  <p>
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=saralhossain&theme=dark" alt="GitHub Streak" />
+  </p>
+
+</div>
