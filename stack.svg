@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" width="100%" height="100%">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&amp;family=Inter:wght@700&amp;display=swap');
+      .bg { fill: #0d0e16; }
+      .card { fill: #131625; stroke: rgba(255,255,255,0.08); stroke-width: 1; rx: 12px; }
+      .text-title { font-family: 'Inter', sans-serif; font-weight: 700; font-size: 18px; fill: #ffffff; }
+      .text-mono { font-family: 'Fira Code', monospace; font-size: 12px; fill: #94a3b8; }
+      
+      /* Orbit lines */
+      .orbit-line { fill: none; stroke: rgba(34, 211, 238, 0.25); stroke-width: 1.5; stroke-dasharray: 4 4; }
+      
+      .chip { fill: rgba(255,255,255,0.05); stroke: rgba(167, 139, 250, 0.4); stroke-width: 1; rx: 6px; }
+      .chip-text { font-family: 'Fira Code', monospace; font-size: 11px; fill: #cbd5e1; }
+    </style>
+  </defs>
+
+  <rect width="100%" height="100%" class="bg" rx="16"/>
+
+  <!-- Orbital Animation Panel -->
+  <g transform="translate(20, 20)">
+    <rect width="420" height="260" class="card"/>
+    <text x="24" y="40" class="text-title">⚛️ Tech Orbit</text>
+
+    <!-- Center Core -->
+    <g transform="translate(210, 150)">
+      <ellipse cx="0" cy="0" rx="130" ry="50" class="orbit-line"/>
+      <ellipse cx="0" cy="0" rx="80" ry="80" class="orbit-line" transform="rotate(30)"/>
+      <circle cx="0" cy="0" r="18" fill="#22d3ee" opacity="0.8"/>
+      <circle cx="0" cy="0" r="26" fill="none" stroke="#22d3ee" stroke-width="1" opacity="0.4"/>
+      
+      <!-- Orbiting Nodes -->
+      <circle cx="-130" cy="0" r="8" fill="#a78bfa"/>
+      <circle cx="130" cy="0" r="8" fill="#f472b6"/>
+      <circle cx="0" cy="-80" r="8" fill="#38bdf8"/>
+    </g>
+  </g>
+
+  <!-- Skill Chips Grid -->
+  <g transform="translate(460, 20)">
+    <rect width="420" height="260" class="card"/>
+    <text x="24" y="40" class="text-title">🛠️ Skill Architecture</text>
+
+    <!-- Frontend Row -->
+    <text x="24" y="80" class="text-mono" fill="#a78bfa">Frontend &amp; UI</text>
+    <g transform="translate(24, 90)">
+      <rect x="0" y="0" width="70" height="26" class="chip"/><text x="35" y="17" class="chip-text" text-anchor="middle">React</text>
+      <rect x="80" y="0" width="70" height="26" class="chip"/><text x="115" y="17" class="chip-text" text-anchor="middle">Angular</text>
+      <rect x="160" y="0" width="80" height="26" class="chip"/><text x="200" y="17" class="chip-text" text-anchor="middle">TypeScript</text>
+    </g>
+
+    <!-- Backend Row -->
+    <text x="24" y="145" class="text-mono" fill="#22d3ee">Backend &amp; Services</text>
+    <g transform="translate(24, 155)">
+      <rect x="0" y="0" width="70" height="26" class="chip"/><text x="35" y="17" class="chip-text" text-anchor="middle">Node.js</text>
+      <rect x="80" y="0" width="70" height="26" class="chip"/><text x="115" y="17" class="chip-text" text-anchor="middle">Express</text>
+      <rect x="160" y="0" width="70" height="26" class="chip"/><text x="195" y="17" class="chip-text" text-anchor="middle">Python</text>
+      <rect x="240" y="0" width="60" height="26" class="chip"/><text x="270" y="17" class="chip-text" text-anchor="middle">C++</text>
+    </g>
+
+    <!-- Cloud & DevOps -->
+    <text x="24" y="210" class="text-mono" fill="#f472b6">Cloud &amp; Infrastructure</text>
+    <g transform="translate(24, 220)">
+      <rect x="0" y="0" width="70" height="26" class="chip"/><text x="35" y="17" class="chip-text" text-anchor="middle">Docker</text>
+      <rect x="80" y="0" width="90" height="26" class="chip"/><text x="125" y="17" class="chip-text" text-anchor="middle">Kubernetes</text>
+      <rect x="180" y="0" width="60" height="26" class="chip"/><text x="210" y="17" class="chip-text" text-anchor="middle">AWS</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 320" width="100%" height="100%">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&amp;family=Inter:wght@400;700;800&amp;display=swap');
+
+      .bg { fill: #0d0e16; }
+      .grid-pattern { fill: none; stroke: rgba(255, 255, 255, 0.03); stroke-width: 1; }
+      
+      /* Camera Frame Elements */
+      .viewfinder-border { fill: none; stroke: #22d3ee; stroke-width: 2; opacity: 0.8; }
+      .rec-dot { fill: #ef4444; animation: blink 1s infinite alternate; }
+      .text-mono { font-family: 'Fira Code', monospace; fill: #94a3b8; font-size: 11px; }
+      
+      /* Left Hero Typography */
+      .text-title { font-family: 'Inter', sans-serif; font-weight: 800; font-size: 38px; fill: url(#grad-title); }
+      .text-subtitle { font-family: 'Fira Code', monospace; font-size: 18px; fill: #22d3ee; }
+      
+      /* Pills & Badges */
+      .pill-bg { fill: rgba(34, 211, 238, 0.1); stroke: #22d3ee; stroke-width: 1; }
+      .pill-text { font-family: 'Inter', sans-serif; font-size: 12px; font-weight: 600; fill: #22d3ee; }
+      .pulse-dot { fill: #22d3ee; animation: pulse 1.5s infinite; }
+
+      @keyframes blink { 0% { opacity: 0.2; } 100% { opacity: 1; } }
+      @keyframes pulse { 0% { transform: scale(0.95); opacity: 0.8; } 50% { transform: scale(1.2); opacity: 1; } 100% { transform: scale(0.95); opacity: 0.8; } }
+      @keyframes type { 0%, 100% { opacity: 0; } 50% { opacity: 1; } }
+      
+      .cursor { animation: type 0.8s infinite; fill: #a78bfa; }
+    </style>
+
+    <linearGradient id="grad-title" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="50%" stop-color="#a78bfa"/>
+      <stop offset="100%" stop-color="#f472b6"/>
+    </linearGradient>
+
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" class="grid-pattern"/>
+    </pattern>
+  </defs>
+
+  <!-- Background Layer -->
+  <rect width="100%" height="100%" class="bg" rx="16"/>
+  <rect width="100%" height="100%" fill="url(#grid)" rx="16"/>
+
+  <!-- Left Content: Hero Text -->
+  <g transform="translate(40, 50)">
+    <!-- Open to Collabs Pill -->
+    <g transform="translate(0, 0)">
+      <rect width="180" height="28" rx="14" class="pill-bg"/>
+      <circle cx="16" cy="14" r="4" class="pulse-dot"/>
+      <text x="28" y="18" class="pill-text">OPEN TO COLLABS</text>
+    </g>
+
+    <!-- Main Title -->
+    <text x="0" y="75" class="text-title">Alamdar Hussain</text>
+    
+    <!-- Dynamic Role -->
+    <g transform="translate(0, 115)">
+      <text x="0" y="0" class="text-subtitle">> Full Stack &amp; AI Developer<tspan class="cursor">_</tspan></text>
+    </g>
+
+    <!-- Description Lines -->
+    <text x="0" y="155" class="text-mono" fill="#cbd5e1">Building high-performance web applications &amp; AI tools.</text>
+    <text x="0" y="175" class="text-mono" fill="#64748b">Specialized in React, Node.js, Python, and Cloud Architecture.</text>
+  </g>
+
+  <!-- Right Content: Viewfinder Frame -->
+  <g transform="translate(540, 30)">
+    <rect width="320" height="260" rx="12" fill="#161927" stroke="rgba(255,255,255,0.1)"/>
+    
+    <!-- Embed Portrait Artwork -->
+    <image href="./face2.jpg" x="10" y="10" width="300" height="240" preserveAspectRatio="xMidYMid slice" clip-path="inset(0 round 8px)"/>
+
+    <!-- Viewfinder UI Overlays -->
+    <path d="M 20 30 L 20 20 L 30 20" class="viewfinder-border"/>
+    <path d="M 300 20 L 310 20 L 310 30" class="viewfinder-border"/>
+    <path d="M 20 230 L 20 240 L 30 240" class="viewfinder-border"/>
+    <path d="M 300 240 L 310 240 L 310 230" class="viewfinder-border"/>
+
+    <!-- REC Indicator -->
+    <circle cx="35" cy="35" r="5" class="rec-dot"/>
+    <text x="46" y="38" class="text-mono" fill="#ef4444" font-weight="600">REC</text>
+    <text x="250" y="38" class="text-mono">RAW 4K</text>
+  </g>
+</svg>

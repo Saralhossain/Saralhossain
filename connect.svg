@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 280" width="100%" height="100%">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@600&amp;family=Inter:wght@700&amp;display=swap');
+      .bg { fill: #0d0e16; }
+      .link-card { fill: #131625; stroke: rgba(255,255,255,0.08); stroke-width: 1; rx: 10px; }
+      .text-title { font-family: 'Inter', sans-serif; font-weight: 700; font-size: 16px; fill: #ffffff; }
+      .text-mono { font-family: 'Fira Code', monospace; font-size: 13px; fill: #22d3ee; }
+      
+      .arrow { fill: none; stroke: #22d3ee; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+
+  <rect width="100%" height="100%" class="bg" rx="16"/>
+
+  <!-- Left: Pointing Character Illustration -->
+  <g transform="translate(40, 15)">
+    <image href="./watermarked_img_8405875104775093619.jpg" x="0" y="0" width="220" height="250" preserveAspectRatio="xMidYMid meet"/>
+  </g>
+
+  <!-- Right: Social & Contact Links -->
+  <g transform="translate(300, 30)">
+    <text x="0" y="20" class="text-title" font-size="20">⚡ Let's Connect &amp; Build Together</text>
+
+    <!-- LinkedIn Card -->
+    <a href="https://linkedin.com/in/saral-hossain" target="_blank">
+      <g transform="translate(0, 45)">
+        <rect width="540" height="50" class="link-card"/>
+        <text x="20" y="30" class="text-title" font-size="14">LinkedIn</text>
+        <text x="140" y="30" class="text-mono">linkedin.com/in/saral-hossain</text>
+        <path d="M 500 25 L 512 25 M 507 20 L 512 25 L 507 30" class="arrow"/>
+      </g>
+    </a>
+
+    <!-- GitHub Card -->
+    <a href="https://github.com/saral-hossain" target="_blank">
+      <g transform="translate(0, 105)">
+        <rect width="540" height="50" class="link-card"/>
+        <text x="20" y="30" class="text-title" font-size="14">GitHub</text>
+        <text x="140" y="30" class="text-mono">github.com/saral-hossain</text>
+        <path d="M 500 25 L 512 25 M 507 20 L 512 25 L 507 30" class="arrow"/>
+      </g>
+    </a>
+
+    <!-- Email Card -->
+    <g transform="translate(0, 165)">
+      <rect width="540" height="50" class="link-card"/>
+      <text x="20" y="30" class="text-title" font-size="14">Email</text>
+      <text x="140" y="30" class="text-mono">alamdarsaral@gmail.com</text>
+      <path d="M 500 25 L 512 25 M 507 20 L 512 25 L 507 30" class="arrow"/>
+    </g>
+  </g>
+</svg>

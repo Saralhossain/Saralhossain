@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 280" width="100%" height="100%">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&amp;family=Inter:wght@400;700&amp;display=swap');
+      .bg { fill: #0d0e16; }
+      .card { fill: #131625; stroke: rgba(255,255,255,0.08); stroke-width: 1; rx: 12px; }
+      .text-title { font-family: 'Inter', sans-serif; font-weight: 700; font-size: 18px; fill: #ffffff; }
+      .text-mono { font-family: 'Fira Code', monospace; font-size: 12px; fill: #94a3b8; }
+      .text-highlight { fill: #22d3ee; font-weight: 600; }
+      
+      /* Progress Rings */
+      .ring-bg { fill: none; stroke: rgba(255,255,255,0.1); stroke-width: 4; }
+      .ring-val { fill: none; stroke-width: 4; stroke-linecap: round; transform: rotate(-90deg); transform-origin: 50% 50%; }
+      .ring-1 { stroke: #22d3ee; stroke-dasharray: 125; stroke-dashoffset: 25; }
+      .ring-2 { stroke: #a78bfa; stroke-dasharray: 125; stroke-dashoffset: 40; }
+      .ring-3 { stroke: #f472b6; stroke-dasharray: 125; stroke-dashoffset: 15; }
+    </style>
+  </defs>
+
+  <rect width="100%" height="100%" class="bg" rx="16"/>
+
+  <!-- Left Card: Meta & Bio -->
+  <g transform="translate(20, 20)">
+    <rect width="420" height="240" class="card"/>
+    <text x="24" y="45" class="text-title">⚡ About &amp; Focus</text>
+    
+    <g transform="translate(24, 75)">
+      <text x="0" y="0" class="text-mono">📍 Location: <tspan class="text-highlight">Islamabad, Pakistan</tspan></text>
+      <text x="0" y="30" class="text-mono">🏢 Current Role: <tspan class="text-highlight">Full Stack Developer</tspan></text>
+      <text x="0" y="60" class="text-mono">🎓 Education: <tspan class="text-highlight">B.S. CS (FAST-NUCES)</tspan></text>
+      <text x="0" y="90" class="text-mono">🚀 Core Focus: <tspan class="text-highlight">AI Integration &amp; SaaS</tspan></text>
+      <text x="0" y="120" class="text-mono">💼 Venture: <tspan class="text-highlight">Malook Enterprises</tspan></text>
+    </g>
+  </g>
+
+  <!-- Right Card: Hobbies Carousel & Daily Rings -->
+  <g transform="translate(460, 20)">
+    <rect width="420" height="240" class="card"/>
+    <text x="24" y="45" class="text-title">🎨 Life &amp; Activities</text>
+    
+    <!-- Daily Rings -->
+    <g transform="translate(60, 130)">
+      <circle cx="0" cy="0" r="20" class="ring-bg"/>
+      <circle cx="0" cy="0" r="20" class="ring-val ring-1"/>
+      <text x="0" y="45" class="text-mono" text-anchor="middle">Code</text>
+    </g>
+
+    <g transform="translate(210, 130)">
+      <circle cx="0" cy="0" r="20" class="ring-bg"/>
+      <circle cx="0" cy="0" r="20" class="ring-val ring-2"/>
+      <text x="0" y="45" class="text-mono" text-anchor="middle">Rugby/Sports</text>
+    </g>
+
+    <g transform="translate(360, 130)">
+      <circle cx="0" cy="0" r="20" class="ring-bg"/>
+      <circle cx="0" cy="0" r="20" class="ring-val ring-3"/>
+      <text x="0" y="45" class="text-mono" text-anchor="middle">Chess</text>
+    </g>
+  </g>
+</svg>
